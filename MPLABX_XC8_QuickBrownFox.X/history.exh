@@ -1,0 +1,45 @@
+CPU = PIC16LF18856
+CHAR_BIT =  8
+
+<lang>vals.dat
+==============
+
+127    1      char - length in bytes.
+128    2      short - length in bytes.
+129    2      int - length in bytes.
+130    4      long - length in bytes.
+131    4      float - length in bytes.
+132    4      double - length in bytes.
+133    4      long double - length in bytes.
+134    2      pointer to any type - length in bytes.
+197    8      long long - length in bytes.
+382    8      number of bits in a byte.
+
+Quick Brown Fox Test
+====================
+
+   0 : The quick brown fox jumps over the lazy dog
+   1 : The quick brown fox jumps over the lazy dog
+   2 : The quick brown fox jumps over the lazy dog
+   3 : The quick brown fox jumps over the lazy dog
+   4 : The quick brown fox jumps over the lazy dog
+   5 : The quick brown fox jumps over the lazy dog
+   6 : The quick brown fox jumps over the lazy dog
+   7 : The quick brown fox jumps over the lazy dog
+   8 : The quick brown fox jumps over the lazy dog
+   9 : The quick brown fox jumps over the lazy dog
+  10 : The quick brown fox jumps over the lazy dog
+  11 : The quick brown fox jumps over the lazy dog
+  12 : The quick brown fox jumps over the lazy dog
+  13 : The quick brown fox jumps over the lazy dog
+  14 : The quick brown fox jumps over the lazy dog
+  15 : The quick brown fox jumps over the lazy dog
+  16 : The quick brown fox jumps over the lazy dog
+  17 : The quick brown fox jumps over the lazy dog
+  18 : The quick brown fox jumps over the lazy dog
+  19 : The quick brown fox jumps over the lazy dog
+  20 : The quick brown fox jumps over the lazy dog
+  21 : The quick brown fox jumps over the lazy dog
+  22 : The quick brown fox jumps over the lazy dog
+  23 : The quick brown fox jumps over the lazy dog
+  24 : The quick brown fox jumps over the lazy dog
