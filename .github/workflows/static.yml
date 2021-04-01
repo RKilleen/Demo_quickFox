@@ -27,7 +27,7 @@ jobs:
         
       - name: Build Project on Windows Machine using Batch File
         run: |
-          cd cd ./githubProjects/MPLABX_XC8_QuickBrownFox.X
+          cd ./githubProjects/MPLABX_XC8_QuickBrownFox.X
           Build.bat
         shell: cmd
         
