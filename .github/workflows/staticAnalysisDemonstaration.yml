@@ -35,7 +35,7 @@ jobs:
       - name: Run static analysis on main.c using LDRA
         run: |
           cd ./MPLABX_XC8_QuickBrownFox.X
-          hello.bat
+          Analysis.bat
         shell: cmd
         
       - uses: actions/upload-artifact@v2
