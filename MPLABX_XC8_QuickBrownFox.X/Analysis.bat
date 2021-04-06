@@ -5,8 +5,8 @@ rem %ldra%contbbuildimport.exe -build_cmd=Build.bat -startin_dir="%proj%" -setti
 
 start /wait %ldra%contestbed testProject -create_set=system -1q
 
-forfiles /s /m *.c /c \"cmd /c start /wait %ldra%contestbed testProject -add_set_file=@path -1q\"
-forfiles /s /m *.h /c \"cmd /c start /wait %ldra%contestbed testProject -add_set_file=@path -1q\"
+forfiles /s /m *.c /c "cmd /c start /wait %ldra%contestbed testProject -add_set_file=@path -1q"
+forfiles /s /m *.h /c "cmd /c start /wait %ldra%contestbed testProject -add_set_file=@path -1q"
 
 start /wait %ldra%contestbed testProject -112a34567q -generate_code_review=HTML -publish_to_dir=%proj%
 
